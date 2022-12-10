@@ -2,7 +2,7 @@
 terraform {
   required_providers {
     azure = {
-      source  = "hashicorp/aws"
+      source  = "hashicorp/gcp"
       
     }
   }
