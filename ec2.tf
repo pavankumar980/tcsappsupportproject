@@ -2,16 +2,22 @@
 terraform {
   required_providers {
     gcp = {
-      source  = "hashicorp/microsoft"
+
+   
+=======
+      source  = "hashicorp/aws"
+
       
     }
   }
 }
 
 # Provider Block
-provider "azure" {
+provider "gcp" {
   profile = "default" 
-  region  = "central east"
+  
+ 
+  region  = "east andhra"
 }
 
 #Resource Block
