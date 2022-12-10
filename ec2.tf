@@ -1,7 +1,7 @@
 # Terraform Configure setting block
 terraform {
   required_providers {
-    azure = {
+    gcp = {
       source  = "hashicorp/gcp"
       
     }
@@ -11,7 +11,7 @@ terraform {
 # Provider Block
 provider "azure" {
   profile = "default" 
-  region  = "south asia"
+  region  = "central east"
 }
 
 #Resource Block
