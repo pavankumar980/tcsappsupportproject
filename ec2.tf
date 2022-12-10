@@ -2,7 +2,11 @@
 terraform {
   required_providers {
     gcp = {
+
+   
+=======
       source  = "hashicorp/aws"
+
       
     }
   }
@@ -11,6 +15,8 @@ terraform {
 # Provider Block
 provider "gcp" {
   profile = "default" 
+  
+ 
   region  = "east andhra"
 }
 
